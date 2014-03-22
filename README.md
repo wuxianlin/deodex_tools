@@ -3,7 +3,7 @@ deodex tools on linux by wuxianlin
 
 工具说明：
 ------------------
-1.本工具适用于在安装有Android SDK和Java SDK的linux环境下对合并一般的Android设备的/system/app和/system/framework下的*.odex到对应的apk或jar中
+1.本工具适用于在安装有Android SDK和Java SDK的linux环境下对一般的Android设备的/system/app和/system/framework下的*.odex合并到对应的apk或jar中
 
 2.本脚本由[wuxianlin](http://weibo.com/wuxianlin000000)个人制作，其中有参考github上朋友开源的资料，有什么意见或建议欢迎联系[wuxianlinwxl@gmail.com](malito:wuxianlinwxl@gmail.com)
 
