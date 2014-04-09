@@ -11,7 +11,7 @@ deodex tools for mt6592
 ----------------
 1.获取你要合并的ROM的/system/app和/system/framework目录，复制到工具箱/system目录下
 
-2.双击deoedx.bat即可开始合并，合并完成后替换原来ROM的app和framework目录刷机测试
+2.双击deodex.bat即可开始合并，合并完成后替换原来ROM的app和framework目录刷机测试
 
 3.若正常开机则deodex完成
 
