@@ -27,3 +27,6 @@ Ljava/lang/StrictMath;->abs(D)D
 Ljava/lang/StrictMath;->min(II)I
 Ljava/lang/StrictMath;->max(II)I
 Ljava/lang/StrictMath;->sqrt(D)D
+Ljava/lang/Math;->log(D)D
+Ljava/lang/Math;->atan(D)D
+Ljava/lang/Math;->exp(D)D
