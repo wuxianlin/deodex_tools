@@ -15,7 +15,7 @@ echo.I                                                                          
 echo.+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 echo.
 for /f %%i in ('dir /b *.txt') do ( ren %%i bak_%%i )
-echo.Æô¶¯adbµ÷ÊÔ
+echo.Æô¶¯adb
 echo.
 adb\adb kill-server
 adb\adb start-server
