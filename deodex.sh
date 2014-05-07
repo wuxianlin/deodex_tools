@@ -55,14 +55,14 @@ ls $FRAMWORK/core.odex > /dev/null
 if [ $? -eq 0 ] 
 then
 	echo "---- 开始合并core.jar ----"
-	deodex_file framework/core.odex jar
+	deodex_file $FRAMEWORK/core.odex jar
 	echo "---- 合并core.jar成功 ----"
 	echo " "
 fi
 
 if [ -z "$BOOTCLASSPATH" ]
 then
-	for f in framework/*.jar
+	for f in $FRAMEWORK/*.jar
 	do
 	    BOOTCLASSPATH=$BOOTCLASSPATH:$f
 	done
