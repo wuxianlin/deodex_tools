@@ -1,0 +1,12 @@
+usage:
+adb push deodexerant /data/local
+adb shell chmod +x /data/local/deodexerant
+adb shell /data/local/deodexerant > inline.txt
+
+deodexerant is a binary that runs on a device and dumps out dalvik's inline
+method table.
+
+This can be used in cases where a particular built of dalvik has a non-standard
+inline method table for whatever reason. The output from this tool is intended
+to be used with the -T option for baksmali
+
