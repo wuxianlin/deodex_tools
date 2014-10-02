@@ -17,7 +17,7 @@ deodex tools on windows by wuxianlin
 
 注意事项：
 -------
-1.[apilevel] [bootclasspath]为可选参数
+1.[apilevel] [bootclasspath]为可选参数，如果不手动赋值，工具会自动获取
 
      adb shell
      getprop ro.build.version.sdk (获取apilevel)
